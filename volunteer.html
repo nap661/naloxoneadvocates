@@ -1,41 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Volunteer — Naloxone Advocates Plymouth CIC</title>
+  styles.css
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      index.htmlNaloxone Advocates Plymouth CIC</a>
+      <nav class="main-nav">
+        about.htmlAbout</a>
+        training.htmlTraining</a>
+        resources.htmlResources</a>
+        volunteer.htmlVolunteer</a>
+        contact.htmlContact</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Menu" onclick="document.querySelector('.main-nav').classList.toggle('open')">☰</button>
+    </div>
+  </header>
 
-<html><head><link rel='stylesheet' href='styles.css'></head><body>
+  <main>
+    <section class="section">
+      <div class="container">
+        <h1>Volunteer With Us</h1>
+        <p>Help support harm reduction work across Plymouth.</p>
 
-<nav>
- <a href='index.html'>Home</a> |
- <a href='about.html'>About</a> |
- <a href='training.html'>Training</a> |
- <a href='resources.html'>Resources</a> |
- <a href='volunteer.html'>Volunteer</a> |
- <a href='contact.html'>Contact</a>
-</nav>
+        https://formsubmit.co/napplymouth66@gmail.com
+          <input type="hidden" name="_captcha" value="false" />
+          <input type="hidden" name="_template" value="table" />
+          <input type="text" name="_honey" style="display:none" />
 
-<h1>Volunteer with Us</h1>
-<p>Sign up to support harm reduction work in Plymouth.</p>
-<form action="https://formsubmit.co/napplymouth66@gmail.com" method="POST">
- <input type="hidden" name="_captcha" value="false">
- <label>Full Name</label><br>
- <input type='text' name='name' required><br><br>
- <label>Email</label><br>
- <input type='email' name='email' required><br><br>
- <label>Phone (optional)</label><br>
- <input type='text' name='phone'><br><br>
- <label>Volunteer Role</label><br>
- <select name='role'>
-  <option>Peer Trainer</option>
-  <option>Outreach Volunteer</option>
-  <option>Support Team</option>
- </select><br><br>
- <label>Availability</label><br>
- <textarea name='availability'></textarea><br><br>
- <label>Additional Notes</label><br>
- <textarea name='notes'></textarea><br><br>
- <button type='submit' class='btn'>Submit</button>
-</form>
+          <label>Full Name</label>
+          <input type="text" name="name" required />
 
-<footer>
- <p>© 2026 Naloxone Advocates Plymouth CIC</p>
- <p>Emergency: <strong>999</strong> | Email: napplymouth66@gmail.com</p>
-</footer>
+          <label>Email</label>
+          <input type="email" name="email" required />
 
-</body></html>
+          <label>Phone (optional)</label>
+          <input type="text" name="phone" />
+
+          <label>Volunteer Role</label>
+          <select name="role">
+            <option>Peer Trainer</option>
+            <option>Outreach Volunteer</option>
+            <option>Support Team</option>
+          </select>
+
+          <label>Availability</label>
+          <textarea name="availability"></textarea>
+
+          <label>Notes</label>
+          <textarea name="notes"></textarea>
+
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+
+        <p class="small text-muted">Your information goes directly to our email inbox. We will reply shortly.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container copyright">
+      <p>© 2026 Naloxone Advocates Plymouth CIC</p>
+    </div>
+  </footer>
+</body>
+</html>
